@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yanfa Al-Nas Health Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f7f9fb;
+      color: #1f2937;
+      direction: ltr;
+    }
+    header {
+      background: #0f766e;
+      color: white;
+      padding: 24px;
+      text-align: center;
+    }
+    nav {
+      background: #115e59;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #ecfeff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    section {
+      max-width: 1000px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    h2 {
+      color: #0f766e;
+      border-bottom: 2px solid #99f6e4;
+      padding-bottom: 8px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 16px 0;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #0f766e;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      margin-top: 40px;
+    }
+    .lang-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+    .lang-switcher a {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 0 4px;
+      background: #0f766e;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .lang-switcher a.active {
+      background: #115e59;
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang-switcher">
+  <a href="index.html">اردو</a>
+  <a href="index-en.html" class="active">English</a>
+</div>
+
+<header>
+  <svg width="120" height="120" viewBox="0 0 120 120" style="margin-bottom:12px;" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="60" cy="60" r="58" fill="#ecfeff" stroke="#0f766e" stroke-width="2"/>
+    
+    <!-- Medical Cross -->
+    <g transform="translate(60, 60)">
+      <!-- Vertical bar of cross -->
+      <rect x="-6" y="-28" width="12" height="56" fill="#0f766e" rx="2"/>
+      <!-- Horizontal bar of cross -->
+      <rect x="-28" y="-6" width="56" height="12" fill="#0f766e" rx="2"/>
+      
+      <!-- Heart accent -->
+      <path d="M 0,-10 C -8,-18 -18,-18 -18,-10 C -18,-2 -8,6 0,14 C 8,6 18,-2 18,-10 C 18,-18 8,-18 0,-10 Z" 
+            fill="#f87171" opacity="0.8"/>
+    </g>
+    
+    <!-- Accent dots -->
+    <circle cx="20" cy="25" r="3" fill="#99f6e4"/>
+    <circle cx="100" cy="95" r="3" fill="#99f6e4"/>
+  </svg>
+  <h1>Yanfa Al-Nas Health Society</h1>
+  <p>Serving Humanity, Promoting Community Health</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#health-team">Health Team</a>
+  <a href="#finance-team">Finance Team</a>
+  <a href="#data-team">Data Team</a>
+  <a href="#media-team">Social Media</a>
+  <a href="#services">Services</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <div class="card">
+    <p>
+      Yanfa Al-Nas Health Society is a charitable organization dedicated to providing basic medical facilities,
+      health awareness, and support to the community.
+    </p>
+  </div>
+</section>
+
+<section id="leadership">
+  <h2>Leadership</h2>
+  <div class="card">
+    <p><strong>President:</strong> Muhammad Ashfaq</p>
+    <p><strong>Vice President:</strong> Muhammad Zeb</p>
+    <p><strong>General Secretary:</strong> Wahed-ur-Rahman</p>
+    <p><strong>Finance Secretary / Treasurer:</strong> Innam-ul-Lah</p>
+  </div>
+
+  <div class="card">
+    <h3>Team Management & Consultancy</h3>
+    <p>Dr. Asrar</p>
+  </div>
+
+  <div class="card">
+    <h3>Special Coordination</h3>
+    <p><strong>Coordinator for President & Vice President:</strong> Samee-ul-Lah</p>
+  </div>
+
+  <div class="card">
+    <h3>Department Heads</h3>
+    <p><strong>Health Secretary:</strong> Emad-ud-Din</p>
+    <p><strong>Data & Coordination Incharge:</strong> Waqas Khan</p>
+    <p><strong>Social Media Incharge:</strong> Falk Naz</p>
+  </div>
+</section>
+
+<section id="health-team">
+  <h2>Health Team</h2>
+  <div class="card">
+    <ul>
+      <li>Shah Zeb</li>
+      <li>Nauman Khan</li>
+      <li>Ali Haider</li>
+      <li>Ismail Khan</li>
+      <li>Wahid-ul-Lah Jahan</li>
+      <li>Muhammad Asrar-ud-Din</li>
+      <li>Azir Khan</li>
+      <li>Shahzeb Afridi</li>
+    </ul>
+    <p><strong>Supervisor:</strong> Emad-ud-Din</p>
+  </div>
+</section>
+
+<section id="finance-team">
+  <h2>Finance Team</h2>
+  <div class="card">
+    <ul>
+      <li>Maroof Shah</li>
+      <li>Asum Gul</li>
+      <li>Kamal Khan</li>
+      <li>Zafar Elahi</li>
+      <li>Kamran Kamran</li>
+    </ul>
+    <p><strong>Supervisor:</strong> Innam-ul-Lah</p>
+  </div>
+</section>
+
+<section id="data-team">
+  <h2>Data & Coordination Team</h2>
+  <div class="card">
+    <ul>
+      <li>Muhammad Waqas</li>
+      <li>Kashif Ahmad</li>
+      <li>Qaisar Khan</li>
+    </ul>
+    <p><strong>Supervisor:</strong> Waqas Khan</p>
+  </div>
+</section>
+
+<section id="media-team">
+  <h2>Social Media Team</h2>
+  <div class="card">
+    <ul>
+      <li>Falk Naz</li>
+      <li>Ubaid-ul-Lah</li>
+    </ul>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="card">
+    <ul>
+      <li>Free Medical Camps</li>
+      <li>Provision of Medicines</li>
+      <li>Health Awareness Campaigns</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact Section is currently hidden -->
+
+<footer>
+  <p>© Yanfa Al-Nas Health Society — All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
